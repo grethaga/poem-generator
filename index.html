@@ -4,25 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>Poem Generator</header>
       <main>
-        <form>
+        <form id="poem-form">
           <input
             type="text"
             name="input"
-            placeholder="Enter a word.. e.g. Flower"
+            placeholder="Enter a topic.. e.g. Flower"
             id="input"
+            required
+            autofocus
           />
-          <input type="button" value="Submit" id="submit-button" />
+          <input type="submit" value="Submit" id="submit-button" />
         </form>
-        <div class="poem">
-          poem <br />
-          poem
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This project was coded by
