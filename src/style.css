@@ -43,12 +43,13 @@ form {
   border: none;
   color: white;
   width: 150px;
+  background-color: #db7093;
 }
 
 .poem {
   background: white;
   padding: 20px;
-  border-left: 3px solid;
+  border-left: 3px solid #db7093;
   line-height: 2;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 30px;
