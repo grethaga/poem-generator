@@ -48,6 +48,7 @@ form {
   color: white;
   width: 150px;
   background-color: #db7093;
+  cursor: pointer;
 }
 
 .poem {
@@ -58,6 +59,7 @@ form {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 30px;
   font-size: 16px;
+  border-radius: 0 8px 8px 0;
 }
 
 .hidden {
